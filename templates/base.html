@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link href="../static/css/main.css" type="text/css" rel="stylesheet">
+
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>MCON 104 Term Project </title>
+    {% endif %}
+
+<body>
+
+<nav>
+    <img src="../static/favicon.ico" alt="Logo"/>
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('cookies') }}">Cookies and Cupcakes</a>
+    <a href="{{ url_for('dessert') }}">Desserts</a>
+</nav>
+
+<hr/>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>

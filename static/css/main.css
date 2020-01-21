@@ -1,0 +1,79 @@
+/* Variables */
+:root {
+    --medium-margin: 10px;
+    --large-margin: 20px;
+}
+figure img{
+    height:240px;
+    width: 240px;
+}
+
+/* Styles */
+
+/*CSS for tags */
+body {
+    font-family: 'Handlee', cursive;
+    color: #F08;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 72px;
+    margin-bottom: -10px;
+}
+
+a {
+    margin: var(--large-margin);
+}
+
+figure {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: center;
+    width: 240px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    float: left;
+    margin: 2.5%;
+}
+
+/* CSS for classes */
+
+.first {
+    font-size: 200px;
+    margin: var(--medium-margin) 0px -155px 0px;
+    width: 700px;
+}
+
+.second {
+    font-size: 125px;
+    margin-bottom: var(--medium-margin);
+    width: 700px;
+}
+
+.contact {
+    display: inline;
+}
+
+.logo {
+    margin-left: var(--large-margin);
+}
+
+.footer {
+    width: 430px;
+    margin: 0 auto 0 auto;
+}
+
+.dessert{
+    margin-top: 35px;
+    margin-right: 130px;
+    border-radius: 5px;
+    float: right;
+
+}
+.items {
+    margin: auto;
+    max-width: 1200px;
+    min-width: 535px;
+}
